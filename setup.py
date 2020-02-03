@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="django-oracle-utils-rmeyers4", # Replace with your own username
+    name="django-oracle-utils", # Replace with your own username
     version="0.0.1",
     author="Robbie Meyers",
     author_email="robbie.meyers@gmail.com",
