@@ -19,3 +19,7 @@ class Simplify(GeoFunc, OracleToleranceMixin):
 
 class SimplifyVW(GeoFunc, OracleToleranceMixin):
     function = 'SDO_UTIL.SIMPLIFYVW'
+
+class ValidateWithContext(GeoFunc, OracleToleranceMixin):
+    function = 'SDO_GEOM.VALIDATE_GEOMETRY_WITH_CONTEXT'
+    output_field = CharField()
